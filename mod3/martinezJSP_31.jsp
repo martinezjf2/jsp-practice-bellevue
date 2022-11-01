@@ -9,7 +9,7 @@
 <%@page language="java" contentType="text/html" import="java.util.Arrays"%>
 <html>
   <head>
-    <title>Hello World Dynamic HTML</title>
+    <title>Module 3 Assignment</title>
   </head>
   <body>
 
