@@ -28,11 +28,11 @@
   <% out.println("</br></br>"); %> 
   <% out.println("<h2>Results</h2>"); %> 
 
-<% for (int num : numbers) {
-    if (num % 2 == 0) {
-        out.println("<p>" + num + " -  Even</p>");
+<% for (int i = 0; i < numbers.length; i++) { 
+     if (numbers[i] % 2 == 0) {
+        out.println("<p>" + numbers[i] + " -  Even</p>");
     } else {
-        out.println("<p>" + num + " -  Odd</p>");
+        out.println("<p>" + numbers[i] + " -  Odd</p>");
     }
 };
   %>
