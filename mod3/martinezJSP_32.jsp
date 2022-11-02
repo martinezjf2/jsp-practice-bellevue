@@ -2,7 +2,7 @@
 
 
 
-<%-- Instructions: Create a JSP that declares and initializes an int array. Then, using loop iteration and selection, go through the array displaying each element along with identifying even and odd values. --%>
+<%-- Instructions: reate a JSP that declares and initializes a String array. Use a for-each loop to display the array. --%>
 
 
 
@@ -16,27 +16,25 @@
 
 <% out.println("<h1>Welcome to the Server Side Development Course</h1>"); %>
       
-<% out.println("<p><strong>Instructions: </strong>Create a JSP that declares and initializes an int array. Then, using loop iteration and selection, go through the array displaying each element along with identifying even and odd values.</p>"); %>
+<% out.println("<p><strong>Instructions: </strong>Create a JSP that declares and initializes a String array. Use a for-each loop to display the array.</p>"); %>
 
-  <% int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; %> 
+  <% String[] names = {"New York", "California", "New Jersey", "Florida", "Virginia", "Nebraska", "Colorado"}; %> 
 
   <% out.println("<h2>Initial Array</h2>"); %> 
-  <% out.println(Arrays.toString(numbers)); %> 
+  <% out.println(Arrays.toString(names)); %> 
 
 
 <%-- comment --%>
   <% out.println("</br></br>"); %> 
   <% out.println("<h2>Results</h2>"); %> 
 
-<% for (int num : numbers) {
-    if (num % 2 == 0) {
-        out.println("<p>" + num + " -  Even</p>");
-    } else {
-        out.println("<p>" + num + " -  Odd</p>");
-    }
+<% for (String name : names) {
+    out.println("</h3>" + name + "</h3></br>"); 
+   
 };
   %>
       
       
   </body>
 </html>
+
