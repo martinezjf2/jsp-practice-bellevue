@@ -24,7 +24,8 @@
   <% out.println(Arrays.toString(names)); %> 
 
 
-<%-- comment --%>
+<%-- This is how we make a comment --%>
+
   <% out.println("</br></br>"); %> 
   <% out.println("<h2>Results</h2>"); %> 
 
