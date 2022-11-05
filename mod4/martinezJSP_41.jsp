@@ -22,5 +22,3 @@
 
 </body>
 </html>
-
-<!-- https://www.tutorialspoint.com/jsp/jsp_form_processing.htm -->
